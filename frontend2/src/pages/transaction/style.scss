@@ -1,0 +1,40 @@
+.transaction-container {
+    width: 95%;
+    margin: auto;
+
+    .search-and-select-month {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 20px auto;
+
+        .input {
+            input {
+                // border: 2px solid blue;
+                padding: 6px 10px;
+                border-radius: 3px;
+                border: 1px solid rgb(158, 157, 157);
+
+            }
+
+            :focus {
+                outline: 1.5px solid #6796eb
+            }
+
+        }
+
+        .selector {
+            width: 50%;
+        }
+    }
+
+    .product-image {
+        height: 50px;
+        width: 50px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
