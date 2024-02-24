@@ -14,9 +14,7 @@ const server = express();
 //load all the environment variable in the application
 
 
-server.use(cors({
-    origin: 'http://localhost:8000',
-}));
+server.use(cors());
 
 
 
